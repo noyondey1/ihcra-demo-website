@@ -62,6 +62,7 @@ i{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .hero .hero-img img{
@@ -85,4 +86,39 @@ i{
 .hero-text p{
     line-height: 2rem;
     text-align: justify;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner .banner-img img{
+    width: 100%;
+}
+
+.banner-img{
+    width: 60%;
+}
+
+.banner-text{
+    width: 40%;
+}
+
+.banner-text h1{
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.banner-text p{
+    line-height: 2rem;
+    text-align: justify;
+}
+
+footer p{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #00FFAB;
 }
