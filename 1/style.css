@@ -11,7 +11,7 @@ body {
 }
 
 header{
-    background-color: palegoldenrod;
+    background-color: #00FFAB;
 }
 
 .container{
@@ -39,9 +39,20 @@ nav{
 .list a {
     text-decoration: none;
     color: black;
+    transition: all 0.3s ease;
+}
+
+.list a:hover{
+    color: #ffffff;
+    letter-spacing: 0.1rem;
 }
 
 .logo{
     font-weight: bold;
     letter-spacing: 0.5rem;
+    user-select: none;
+}
+
+i{
+    font-size: 1.2rem;
 }
