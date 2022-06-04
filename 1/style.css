@@ -45,6 +45,7 @@ nav{
 .list a:hover{
     color: #ffffff;
     letter-spacing: 0.1rem;
+    box-shadow: 0 0 2rem rgba(255, 255, 255, 0.5);
 }
 
 .logo{
@@ -55,4 +56,33 @@ nav{
 
 i{
     font-size: 1.2rem;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .hero-img img{
+    width: 100%;
+}
+
+.hero-img{
+    width: 60%;
+}
+
+.hero-text{
+    width: 40%;
+}
+
+.hero-text h1{
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.hero-text p{
+    line-height: 2rem;
+    text-align: justify;
 }
